@@ -1,0 +1,14 @@
+(function ($)){
+  $.fn.enter = function(func){
+    this.bind('keypress',function (e) {
+      if (e.keycode == 13) func.apply(this, [e]);
+    });
+    return this;
+  };
+})(jquery);
+
+
+
+document.write("Lilly: Hey~~ You comin' to Mike's party??");
+
+$('input[type="textbox"]').keyup(prompt("ThoughtSpace: Do I really want to go? Yes or No? ");

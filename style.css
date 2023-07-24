@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* the container for message tab list on the right of the screen */
+.container-tab{
+  float: right;
+  margin: auto;
+}
+/* the container for the top of the message board */
+.container-top{
+  position: fixed;
+  width: 857px;
+  height: 56px;
+  
+}
+/* The screen of the message board where the magic happens */
+.container-screen{
+  position: fixed;
+  border:  1px solid grey;
+  width: 857px;
+  height: 700px;
+}
+
+/* font of play screen */
+.play{
+  font: 20px;
+}
+
